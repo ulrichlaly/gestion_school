@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acceuil</title>
+    <link rel="stylesheet" href="acceuil.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Bienvenue sur la Plateforme de Gestion d'École</h1>
+        <p>
+          Gérez facilement les informations des étudiants, des enseignants et
+          des cours.
+        </p>
+      </div>
+    </header>
+    <nav>
+      <div class="container">
+        <ul>
+          <li><a href="#dashboard">Tableau de bord</a></li>
+          <li><a href="ajoutparent.html">Ajouter un parent</a></li>
+          <li><a href="enseignant.html">Ajouter un enseignant</a></li>
+          <li><a href="etudiant.html">Ajouter un étudiant</a></li>
+          <li><a href="cours.html">Ajouter un cours</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="dashboard" class="section">
+      <div class="container">
+        <h2>Tableau de bord</h2>
+        <div class="dashboard-cards">
+          <div class="card">
+            <img src="users.png" alt="" />
+            <h3>Étudiants</h3>
+            <p>Nombre total: <span id="student-count">0</span></p>
+          </div>
+          <div class="card">
+            <img src="" alt="" />
+            <img src="square-user-round.png" alt="" />
+            <h3>Enseignants</h3>
+            <p>Nombre total: <span id="teacher-count">0</span></p>
+          </div>
+          <div class="card">
+            <img src="circle-user-round.png" alt="" />
+            <h3>Parents</h3>
+            <p>Nombre total: <span id="parent-count">0</span></p>
+          </div>
+          <div class="card">
+            <img src="book-open-check.png" alt="" />
+            <h3>Cours</h3>
+            <p>Nombre total: <span id="course-count">0</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="features">
+      <div class="container">
+        <h2>Fonctionnalités principales</h2>
+        <div class="feature">
+          <img src="students.png" alt="Icone étudiant" />
+          <h3>Gestion des Étudiants</h3>
+          <p>
+            Accès rapide aux informations des étudiants, gestion des
+            inscriptions et des données personnelles.
+          </p>
+        </div>
+        <div class="feature">
+          <img src="prof.png" alt="Icone enseignant" />
+          <h3>Gestion des Enseignants</h3>
+          <p>
+            Centralisation des informations sur le corps professoral, gestion
+            des cours et des emplois du temps.
+          </p>
+        </div>
+        <div class="feature">
+          <img src="livre.png" alt="Icone cours" />
+          <h3>Gestion des Cours</h3>
+          <p>
+            Organisation efficace des cours, assignation des salles de classe et
+            suivi des programmes d'études.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Plateforme de Gestion d'École. Tous droits réservés.</p>
+      </div>
+    </footer>
+    <script src="acceuil.js"></script>
+    <script src="ajoutparent.js"></script>
+    <script src="enseignant.js"></script>
+    <script src="enseignant.js"></script>
+    <script src="cours.js"></script>
+  </body>
+</html>
