@@ -13,7 +13,7 @@ document
 
     if (username === storedUsername && password === storedPassword) {
       showMessage("Connexion réussie!", "success");
-      window.location.href = "http://127.0.0.1:5500";
+      window.location.href = "http://127.0.0.1:5500/index.html";
     } else {
       showMessage("Nom d'utilisateur ou mot de passe incorrect.", "error");
     }
